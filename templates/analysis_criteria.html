@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Analysis Criteria</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h1>Choose Analysis Criteria</h1>
+    <form method="POST">
+        <label><input type="radio" name="analysis_type" value="main_topics" required>Main Topics</label>
+        <label><input type="radio" name="analysis_type" value="specific_messages" required>Specific Messages</label>
+        <input type="text" name="criteria" placeholder="Specify criteria (optional)">
+        <button type="submit">Analyze</button>
+    </form>
+</body>
+</html>

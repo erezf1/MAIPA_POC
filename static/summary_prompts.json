@@ -1,0 +1,14 @@
+{
+    "technical": {
+        "description": "A technical summary that focuses on key technical details and discussions.",
+        "prompt": "Provide a detailed technical summary based on the following messages. Focus on technical aspects and key points."
+    },
+    "general": {
+        "description": "A general summary that covers the main points of the conversation without going into technical details.",
+"prompt": "Below is a list of messages that were retrieved from a WhatsApp group in the last 24 hours. Your task is to summarize the group content in a way that will help the user to quickly review the discussion hand in the group, and decide if it interests them. describe each discussion in up to 3 or 4 sentences. in addion, for each discussion tell how many replies it got, and indicate the level of engagement it received.Lastly, provide the id of the user how started the discussion and when was it. the format of the summaries should be title: \n discussion XX (discusion number) : discssion contnet.\n engagement: how many relies and how many interactions for the discussion messages \n discussion started by (user id) at (leading message time). Please keep the summary in the same language as the primary language used in the group" 
+   },
+    "actionable": {
+        "description": "An actionable summary that highlights any decisions made, actions required, and next steps.",
+        "prompt": "Provide a summary that highlights actionable items, decisions made, and next steps based on the following messages."
+    }
+}

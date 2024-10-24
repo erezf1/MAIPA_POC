@@ -1,0 +1,47 @@
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Ignore log and database files
+*.log
+*.sqlite3
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore node_modules (for JavaScript dependencies)
+node_modules/
+# Ignore session and cache files
+.wwebjs_cache/
+session/
+session-client-one/
+*.pma
+
+# Ignore Node.js modules
+node_modules/
+
+# Ignore Python virtual environments and cache
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore log files
+*.log
+
+# Ignore temporary and backup files
+*.bak
+*.tmp
+
+# Ignore QR code files and other static outputs
+static/qr_code.txt
